@@ -126,10 +126,10 @@ export default function Skills() {
             <div>
                 Github
                 <Image
-                    src='/github.png'
+                    src='/githubwhite.png'
                     alt='Github logo'
-                    width='75'
-                    height='75'
+                    width='70'
+                    height='70'
                 />
             </div>
         </div>
