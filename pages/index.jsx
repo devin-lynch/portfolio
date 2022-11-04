@@ -3,8 +3,9 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import About from '../components/about'
-import Contact from '../components/contact'
+import Skills from '../components/Skills'
 import Projects from '../components/projects'
+import Contact from '../components/contact'
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
       <h1>My Portfolio</h1>
 
       <About />
+
+      <Skills />
 
       <Projects />
 
