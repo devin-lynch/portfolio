@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 export default function Contact() {
     return (
-        <div>
+        <div className='mt-6'>
             Contact Me
 
-            <div>Resume</div> {/* check on removing phone number from resume before linking */}
+            <div className='mt-3'>Resume</div> {/* check on removing phone number from resume before linking */}
 
             <div>
                 <a href='https://www.linkedin.com/in/lynch-devin/'>
