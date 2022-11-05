@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Skills() {
     return (
-        <div>
+        <div className='flex justify-center items-center'>
             <div className='text-center'>
                 <Image
                     src='/js.png'
