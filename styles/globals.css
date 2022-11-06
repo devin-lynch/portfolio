@@ -16,14 +16,27 @@ a {
   box-sizing: border-box;
 }
 
+.skills {
+  height: 85px;
+  width: 85px;
+}
+
+.project {
+  height: 340px;
+}
+
+.resumeIcon {
+  height: 75px;
+}
+
 /* media queries go here in global */
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
   }
 }
 
