@@ -6,13 +6,13 @@ export default function Contact() {
             <p>Contact Me</p>
             <div className='flex justify-center mt-3'>
 
-                <div className=''>
+                <div className='transform transition duration-500 hover:scale-110'>
                     <a href='https://docs.google.com/document/d/1LPBore_Dkbh-FunhyKtF-mLjjr_6J3-w0P4mKFddchQ/edit?usp=sharing'>
                         <img src='https://img.icons8.com/ios-filled/512/set-as-resume.png' alt='Resume icon' className='resumeIcon'/>
                     </a>
                 </div> {/* check on removing phone number from resume before linking */}
 
-                <div className='mr-1'>
+                <div className='mr-1  transform transition duration-500 hover:scale-110'>
                     <a href='https://www.linkedin.com/in/lynch-devin/'>
                         <Image
                             src='/linkedin.png'
@@ -23,7 +23,7 @@ export default function Contact() {
                     </a>
                 </div>
 
-                <div>
+                <div className='transform transition duration-500 hover:scale-110'>
                     <a href='https://github.com/devin-lynch'>
                         <Image
                             src='/github.png'

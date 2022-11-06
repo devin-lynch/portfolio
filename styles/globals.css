@@ -3,8 +3,10 @@ body {
   text-align: center;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Lobster' sans-serif,
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  
 }
 
 a {
@@ -41,9 +43,12 @@ a {
   }
   body {
     color: black;
-    background: white;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,0.7679665616246498) 0%, rgba(253,187,45,0.7035407913165266) 100%);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poiret+One&display=swap');
 
 @tailwind base;
 @tailwind components;

@@ -6,11 +6,11 @@ export default function About() {
         <div>
             <h1>About Devin</h1>
 
-            <p className={styles.extraGreen}>Hi! I am Devin, I am a software engineer, and I make neat stuff with code!</p>
-            
             <div className='flex justify-center'>
                 <img src='https://i.imgur.com/Rcd9xQw.png' alt='photo of Devin' className='rounded-full' />
             </div>
+            
+            <p className=''>Hey there! I&#39;m Devin, a full stack software developer.</p>
 
             {/* load an image locally */}
             {/* <Image
