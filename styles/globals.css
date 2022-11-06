@@ -29,6 +29,11 @@ a {
   height: 75px;
 }
 
+.portrait {
+  height: 250px;
+
+}
+
 /* media queries go here in global */
 @media (prefers-color-scheme: dark) {
   html {

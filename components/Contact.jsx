@@ -7,7 +7,7 @@ export default function Contact() {
             <div className='flex justify-center mt-3'>
 
                 <div className=''>
-                    <a href=''>
+                    <a href='https://docs.google.com/document/d/1LPBore_Dkbh-FunhyKtF-mLjjr_6J3-w0P4mKFddchQ/edit?usp=sharing'>
                         <img src='https://img.icons8.com/ios-filled/512/set-as-resume.png' alt='Resume icon' className='resumeIcon'/>
                     </a>
                 </div> {/* check on removing phone number from resume before linking */}
