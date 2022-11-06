@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Contact() {
     return (
         <div className='mt-4'>
-            Contact Me
+            <p>Contact Me</p>
             <div className='flex justify-center mt-3'>
 
                 <div className=''>
