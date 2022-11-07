@@ -3,10 +3,10 @@ import Image from 'next/image'
 export default function Projects() {
     return (
         <div className='flex flex-col items-center'>
-            <p className='mt-6'>My Projects</p>
+            <p className='mt-6 text-xl italic'>Projects</p>
 
             <div className='text-center mt-3'>
-                <div className='flex items-center gap-5'>
+                <div className='md:flex items-center gap-5'>
                     <a href='https://github.com/devin-lynch/dreamplanner-client'>
                         <Image
                             src='/github.png'
@@ -21,7 +21,7 @@ export default function Projects() {
             </div>
 
             <div className='text-center mt-10'>
-                <div className='flex items-center gap-5'>
+                <div className='md:flex items-center gap-5'>
                     <p><span className='italic text-3xl'><a href='https://silver-beignet-215e62.netlify.app/'>Pod-Cats</a><br></br></span>A cat-lover&#39;s social media app to browse, save, and add comments to cats <br></br> Tech stack: MongoDB, Express, React, Node</p>
                     <a href='https://silver-beignet-215e62.netlify.app/'><img src='https://i.imgur.com/ZMEAjd0.png' className='project transform transition duration-500 hover:scale-110' /></a>
                     <a href='https://github.com/devin-lynch/pod-cats-client'>
@@ -36,7 +36,7 @@ export default function Projects() {
             </div>
 
             <div className='text-center mt-10'>
-                <div  className='flex items-center gap-5'>
+                <div  className='md:flex  items-center gap-5'>
                     <a href='https://github.com/devin-lynch/proj-2-nba-app'>
                         <Image
                             src='/github.png'
@@ -51,7 +51,7 @@ export default function Projects() {
             </div>
             
             <div className='text-center mt-10'>
-                <div className='flex items-center gap-5'>
+                <div className='md:flex items-center gap-5'>
                     <p><span className='italic text-3xl'><a href='https://devin-lynch.github.io/PokeDOM-Battle/'>PokeDOM Battle</a><br></br></span>A Pokemon battle simulation using DOM manipulation <br></br> Tech stack: JavaScript, HTML, CSS</p>
                     <a href='https://devin-lynch.github.io/PokeDOM-Battle/'><img src='https://i.imgur.com/RDEDulR.png' className='project transform transition duration-500 hover:scale-110' /></a>
                     <a href='https://github.com/devin-lynch/PokeDOM-Battle'>

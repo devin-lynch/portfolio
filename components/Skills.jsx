@@ -5,7 +5,8 @@ import Image from 'next/image'
 export default function Skills() {
     return (
         <div className='mt-10'>
-            <div className='flex justify-center items-center'>
+            {/* <div className='flex items-center justify-center'> */}
+            <div className='grid grid-cols-2 justify-items-center sm:grid-cols-4 lg:flex lg:justify-center'>
                 <div className='text-center transform transition duration-500 hover:scale-110'>
                     <img src='https://img.icons8.com/color/512/javascript--v1.png' className='skills'/>
                     <p>JavaScript</p>

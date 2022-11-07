@@ -3,14 +3,13 @@ import Image from 'next/image'
 
 export default function About() {
     return (
-        <div>
-            <h1>About Devin</h1>
+        <div className=''>
 
             <div className='flex justify-center'>
-                <img src='https://i.imgur.com/Rcd9xQw.png' alt='photo of Devin' className='rounded-full' />
+                <img src='https://i.imgur.com/Rcd9xQw.png' alt='photo of Devin' className='rounded-full mt-5' />
             </div>
             
-            <p className=''>Hey there! I&#39;m Devin, a full stack software developer.</p>
+            <p className='mt-7'>Hello world! I&#39;m Devin, a full stack software developer based in San Antonio, Texas.<br></br> I began coding in the fall of '22, and I was quickly immersed and facinated with the developer world.<br></br> I would love to hear any questions/collaboration proposals you might have!</p>
 
             {/* load an image locally */}
             {/* <Image

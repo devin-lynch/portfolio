@@ -2,9 +2,9 @@ import Image from 'next/image'
 
 export default function Contact() {
     return (
-        <div className='mt-4'>
+        <div className='mt-10'>
             <p>Contact Me</p>
-            <div className='flex justify-center mt-3'>
+            <div className='flex justify-center mt-1'>
 
                 <div className='transform transition duration-500 hover:scale-110'>
                     <a href='https://docs.google.com/document/d/1LPBore_Dkbh-FunhyKtF-mLjjr_6J3-w0P4mKFddchQ/edit?usp=sharing'>

@@ -19,7 +19,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poiret+One&display=swap" rel="stylesheet"></link>
       </Head>
       {/* useRef + scrolling */}
-      <h1>My Portfolio</h1>
+      <p className='text-xl mt-5 text-4xl italic font-bold'>Devin Lynch</p>
 
       <About />
 
