@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Contact() {
     return (
-        <div className='mt-32'>
+        <div className='mt-32' id='contact'>
             <p>Contact Me</p>
             <div className='flex justify-center mt-1'>
 

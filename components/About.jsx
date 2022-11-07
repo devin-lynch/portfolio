@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function About() {
     return (
-        <div className=''>
+        <div id='about' className='mb-64'>
 
             <div className='flex justify-center mt-16'>
                 <img src='https://i.imgur.com/Rcd9xQw.png' alt='photo of Devin' className='rounded-full mt-5' />

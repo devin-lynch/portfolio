@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Projects() {
     return (
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center' id='projects'>
             <p className='mt-64 text-xl italic'>Projects</p>
 
             <div className='text-center mt-16'>

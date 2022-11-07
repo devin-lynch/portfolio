@@ -4,7 +4,9 @@ import Image from 'next/image'
 
 export default function Skills() {
     return (
-        <div className='mt-64'>
+        // <div className='mt-64' id='skills'>
+        <div className='' id='skills'>
+            <p className='mb-10 text-xl italic'>Skills</p>
             {/* <div className='flex items-center justify-center'> */}
             <div className='grid grid-cols-2 justify-items-center sm:grid-cols-4 lg:flex lg:justify-center'>
                 <div className='text-center transform transition duration-500 hover:scale-110'>
