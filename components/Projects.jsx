@@ -3,9 +3,9 @@ import Image from 'next/image'
 export default function Projects() {
     return (
         <div className='flex flex-col items-center'>
-            <p className='mt-6 text-xl italic'>Projects</p>
+            <p className='mt-64 text-xl italic'>Projects</p>
 
-            <div className='text-center mt-3'>
+            <div className='text-center mt-16'>
                 <div className='md:flex items-center gap-5'>
                     <a href='https://github.com/devin-lynch/dreamplanner-client'>
                         <Image

@@ -19,7 +19,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />  
       </Head>
       {/* useRef + scrolling */}
-      <p className='text-xl mt-5 text-4xl italic font-bold'>Devin Lynch</p>
+      <p className='text-xl mt-10 text-4xl italic font-bold'>Devin Lynch</p>
 
       <About />
 
