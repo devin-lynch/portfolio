@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
     return (
-        <nav>
+        <nav className='scroll-smooth'>
             {/* <Link href='/'>Home</Link>{' | '} */}
 
             <Link href='#about'>About Me</Link>{' | '}
