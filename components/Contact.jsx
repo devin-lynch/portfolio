@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Contact() {
     return (
@@ -34,6 +35,16 @@ export default function Contact() {
                     </a>
                 </div>
 
+            </div>
+            <div className='transform transition duration-500 hover:scale-110 mt-4'>
+                <Link href='/'>
+                    <Image
+                        src='/totop.png'
+                        alt='to top'
+                        height='60'
+                        width='60'
+                    />
+                </Link>
             </div>
         </div>
     )
