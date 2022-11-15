@@ -19,7 +19,7 @@ export default function About() {
                 height={400}
                 // layout='fill'
             /> */}
-            {/* load an image hosted on anotther domain */}
+            {/* load an image hosted on another domain */}
 
         </div>
     )
