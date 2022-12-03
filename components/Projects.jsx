@@ -4,6 +4,8 @@ export default function Projects() {
     return (
         <div className='flex flex-col items-center' id='projects'>
             <p className='mt-64 text-xl italic'>Projects</p>
+            <p>Email: test@email.com</p>
+            <p>Password: test</p>
 
             <div className='text-center mt-16'>
                 <div className='md:flex items-center gap-5'>
