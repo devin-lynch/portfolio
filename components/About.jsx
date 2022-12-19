@@ -9,7 +9,7 @@ export default function About() {
                 <img src='https://i.imgur.com/Rcd9xQw.png' alt='photo of Devin' className='rounded-full mt-5' />
             </div>
             
-            <p className='mt-16'>Hello world! I&#39;m Devin, a full stack software developer based in San Antonio, Texas.<br></br> I began coding in the fall of 2022, and I was quickly immersed and fascinated with the developer world.<br></br> I would love to hear any questions/collaboration proposals you might have!</p>
+            <p className='mt-16'>Hello world! I&#39;m Devin, a full stack software developer based in San Antonio, Texas.<br></br> I&#39;m a recent graduate of General Assembly&#39;s Software Engineering Immersive program, where I gained a strong foundation in JavaScript/MERN stack technologies.<br></br> During my time with General Assembly, I completed various projects that allowed me to practice my skills and apply what I learned in a real world setting.<br></br> I am a fast learner and thrive in a dynamaic, fast-paced environment. I am also a strong collaborator and enjoy workingon projects as part of a team. <br></br> I would love to hear any questions/collaboration proposals you might have!</p>
 
             {/* load an image locally */}
             {/* <Image
